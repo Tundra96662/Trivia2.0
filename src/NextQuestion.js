@@ -1,8 +1,8 @@
-function NextQuestion() {
+function NextQuestion(props) {
   return (
     <div>
-      <button>Next Question</button>
-      <p>Question #</p>
+      <button onClick={props.goToNextQuestion}>Next Question</button>
+      <p>Question: {props.currentQuestionNumber + 1}</p>
     </div>
   );
 }

@@ -47,7 +47,7 @@ function App() {
       {questionAnswered()}
 
       <NextQuestion
-        currentQuestionNum={currentQuestionNumber}
+        currentQuestionNumber={currentQuestionNumber}
         goToNextQuestion={goToNextQuestion}
       />
 
